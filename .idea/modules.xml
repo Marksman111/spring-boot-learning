@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot03-rabbitMQ/marksman.iml" filepath="$PROJECT_DIR$/springboot03-rabbitMQ/marksman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-learning.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot04-schedulerTask/springboot04-schedulerTask.iml" filepath="$PROJECT_DIR$/springboot04-schedulerTask/springboot04-schedulerTask.iml" />
+    </modules>
+  </component>
+</project>
