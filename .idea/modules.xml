@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot03-rabbitMQ/marksman.iml" filepath="$PROJECT_DIR$/springboot03-rabbitMQ/marksman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot03-rabbitMQ/marksman (1).iml" filepath="$PROJECT_DIR$/springboot03-rabbitMQ/marksman (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot04-schedulerTask/marksman (2).iml" filepath="$PROJECT_DIR$/springboot04-schedulerTask/marksman (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot05-mail/marksman (3).iml" filepath="$PROJECT_DIR$/springboot05-mail/marksman (3).iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-learning.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot02-mybatis/springboot02.iml" filepath="$PROJECT_DIR$/springboot02-mybatis/springboot02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot04-schedulerTask/springboot04-schedulerTask.iml" filepath="$PROJECT_DIR$/springboot04-schedulerTask/springboot04-schedulerTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot06-mongodb/springboot06-mongodb.iml" filepath="$PROJECT_DIR$/springboot06-mongodb/springboot06-mongodb.iml" />
     </modules>
   </component>
 </project>

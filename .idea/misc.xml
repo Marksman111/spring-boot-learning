@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/springboot03-rabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/springboot04-schedulerTask/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot05-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot02-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot06-mongodb/pom.xml" />
       </list>
     </option>
   </component>
