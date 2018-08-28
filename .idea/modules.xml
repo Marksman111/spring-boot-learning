@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot02-mybatis/springboot02.iml" filepath="$PROJECT_DIR$/springboot02-mybatis/springboot02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot04-schedulerTask/springboot04-schedulerTask.iml" filepath="$PROJECT_DIR$/springboot04-schedulerTask/springboot04-schedulerTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot06-mongodb/springboot06-mongodb.iml" filepath="$PROJECT_DIR$/springboot06-mongodb/springboot06-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot07-test/springboot07-test.iml" filepath="$PROJECT_DIR$/springboot07-test/springboot07-test.iml" />
     </modules>
   </component>
 </project>

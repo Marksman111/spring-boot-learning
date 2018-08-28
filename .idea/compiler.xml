@@ -16,6 +16,7 @@
         <module name="springboot02" />
         <module name="springboot04-schedulerTask" />
         <module name="springboot06-mongodb" />
+        <module name="springboot07-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="springboot02" target="1.8" />
       <module name="springboot04-schedulerTask" target="1.8" />
       <module name="springboot06-mongodb" target="1.8" />
+      <module name="springboot07-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

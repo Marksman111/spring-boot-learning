@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2e1804-7503-4b45-b120-c4ba198dd5c6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot01-web" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/MarksmanApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/MarksmanApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot05-mail/target/" />
     <ignored path="$PROJECT_DIR$/springboot03-rabbitMQ/target/" />
@@ -11,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/springboot02-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/springboot06-mongodb/target/" />
     <ignored path="$PROJECT_DIR$/springboot01-web/target/" />
+    <ignored path="$PROJECT_DIR$/springboot07-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +43,96 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="57" selection-start-column="57" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarksmanApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot07-test/src/test/java/com/marksman/MarksmanApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloControllerTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot07-test/src/test/java/com/marksman/HelloControllerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot07-test/src/main/java/com/marksman/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarksmanApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/MarksmanApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/entity/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +149,14 @@
         <option value="$PROJECT_DIR$/springboot05-mail/src/test/java/com/marksman/MailServiceTest.java" />
         <option value="$PROJECT_DIR$/springboot05-mail/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot06-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/test.java" />
+        <option value="$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/MarksmanApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot07-test/src/main/java/com/marksman/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/springboot07-test/src/test/java/com/marksman/HelloControllerTests.java" />
       </list>
     </option>
   </component>
@@ -86,9 +186,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="893" />
-    <option name="width" value="1030" />
-    <option name="height" value="1027" />
+    <option name="x" value="-5" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,25 +210,25 @@
             <path>
               <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot06-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot06-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot06-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot06-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -136,10 +236,45 @@
             <path>
               <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot06-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marksman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marksman" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot07-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marksman" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,11 +293,16 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../theArtOfJavaConcurrencyProgramming" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\ideaWorkspace\spring-boot-learning\springboot01-web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MailServiceTest.sendInlineResourceMail">
+  <component name="RunManager" selected="JUnit.MarksmanApplicationTests.testSaveUser">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -226,8 +366,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MailServiceTest.testHtmlMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marksman (3)" />
+    <configuration name="MarksmanApplicationTests.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marksman (4)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.marksman.*" />
@@ -237,31 +377,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.marksman" />
-      <option name="MAIN_CLASS_NAME" value="com.marksman.MailServiceTest" />
-      <option name="METHOD_NAME" value="testHtmlMail" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MailServiceTest.testSimpleMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marksman (3)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marksman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.marksman" />
-      <option name="MAIN_CLASS_NAME" value="com.marksman.MailServiceTest" />
-      <option name="METHOD_NAME" value="testSimpleMail" />
+      <option name="MAIN_CLASS_NAME" value="com.marksman.MarksmanApplicationTests" />
+      <option name="METHOD_NAME" value="testSaveUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -279,6 +396,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marksman (4)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marksman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.marksman" />
+      <option name="MAIN_CLASS_NAME" value="com.marksman.test" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -330,20 +470,20 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MarksmanApplication" />
-      <item itemvalue="JUnit.MailServiceTest.testSimpleMail" />
-      <item itemvalue="JUnit.MailServiceTest.testHtmlMail" />
       <item itemvalue="JUnit.MailServiceTest.sendAttachmentsMail" />
       <item itemvalue="Spring Boot.Springboot02Application" />
       <item itemvalue="JUnit.MailServiceTest.sendInlineResourceMail" />
       <item itemvalue="Spring Boot.SpringbootApplication" />
+      <item itemvalue="JUnit.test.testList" />
+      <item itemvalue="JUnit.MarksmanApplicationTests.testSaveUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MarksmanApplicationTests.testSaveUser" />
+        <item itemvalue="JUnit.test.testList" />
         <item itemvalue="JUnit.MailServiceTest.sendInlineResourceMail" />
         <item itemvalue="JUnit.MailServiceTest.sendAttachmentsMail" />
         <item itemvalue="Spring Boot.Springboot02Application" />
-        <item itemvalue="JUnit.MailServiceTest.testHtmlMail" />
-        <item itemvalue="JUnit.MailServiceTest.testSimpleMail" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +499,7 @@
       <updated>1535295050233</updated>
       <workItem from="1535295051616" duration="993000" />
       <workItem from="1535372936170" duration="10660000" />
-      <workItem from="1535417067863" duration="588000" />
+      <workItem from="1535417067863" duration="8637000" />
     </task>
     <task id="LOCAL-00001" summary="mail">
       <created>1535381128852</created>
@@ -403,25 +543,45 @@
       <option name="project" value="LOCAL" />
       <updated>1535417254316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="springboot-web first commit">
+      <created>1535417662145</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535417662145</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springboot-web first commit">
+      <created>1535417766713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535417766713</updated>
+    </task>
+    <task id="LOCAL-00009" summary="springboot-web first commit">
+      <created>1535417858257</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535417858257</updated>
+    </task>
+    <task id="LOCAL-00010" summary="springboot-learning">
+      <created>1535417892132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1535417892132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="springboot-test first commit">
+      <created>1535450980144</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535450980144</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MailServiceTest_testSimpleMail - 2018.08.27 at 21h 51m 10s.xml">
-      <configuration name="MailServiceTest.testSimpleMail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MailServiceTest_testHtmlMail - 2018.08.27 at 21h 54m 05s.xml">
-      <configuration name="MailServiceTest.testHtmlMail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MailServiceTest_sendAttachmentsMail - 2018.08.27 at 21h 56m 09s.xml">
-      <configuration name="MailServiceTest.sendAttachmentsMail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MailServiceTest_sendAttachmentsMail - 2018.08.27 at 22h 10m 00s.xml">
-      <configuration name="MailServiceTest.sendAttachmentsMail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MailServiceTest_sendAttachmentsMail - 2018.08.27 at 22h 18m 39s.xml">
-      <configuration name="MailServiceTest.sendAttachmentsMail" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MailServiceTest_sendAttachmentsMail - 2018.08.27 at 22h 21m 41s.xml">
       <configuration name="MailServiceTest.sendAttachmentsMail" configurationId="JUnit" />
     </history-entry>
@@ -437,15 +597,30 @@
     <history-entry file="MailServiceTest_sendInlineResourceMail - 2018.08.27 at 22h 31m 57s.xml">
       <configuration name="MailServiceTest.sendInlineResourceMail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_testList - 2018.08.28 at 09h 47m 54s.xml">
+      <configuration name="test.testList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarksmanApplicationTests_testSaveUser - 2018.08.28 at 16h 56m 16s.xml">
+      <configuration name="MarksmanApplicationTests.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarksmanApplicationTests_testSaveUser - 2018.08.28 at 16h 57m 44s.xml">
+      <configuration name="MarksmanApplicationTests.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarksmanApplicationTests_testSaveUser - 2018.08.28 at 17h 08m 33s.xml">
+      <configuration name="MarksmanApplicationTests.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarksmanApplicationTests_testSaveUser - 2018.08.28 at 17h 09m 58s.xml">
+      <configuration name="MarksmanApplicationTests.testSaveUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12241000" />
+    <option name="totallyTimeSpent" value="20290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32899627" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32791728" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -454,8 +629,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.81040895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8094535" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
@@ -474,7 +650,6 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32899627" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Tail" order="7" />
@@ -493,7 +668,9 @@
     <MESSAGE value="mail" />
     <MESSAGE value="mongodb first commit" />
     <MESSAGE value="springboot-web first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot-web first commit" />
+    <MESSAGE value="springboot-learning" />
+    <MESSAGE value="springboot-test first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-test first commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties">
@@ -524,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot02-mybatis/src/test/java/com/marksman/springboot02/Springboot02ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot02-mybatis/src/main/java/com/marksman/springboot02/Springboot02Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -549,13 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot02-mybatis/src/main/java/com/marksman/springboot02/mapper/test1/User1Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -612,17 +775,108 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="108">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboot02-mybatis/src/main/java/com/marksman/springboot02/mapper/test1/User1Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="162">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot02-mybatis/src/test/java/com/marksman/springboot02/Springboot02ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/java/com/marksman/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/test/java/com/marksman/MarksmanApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot07-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06-mongodb/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot07-test/src/test/java/com/marksman/MarksmanApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot07-test/src/main/java/com/marksman/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot07-test/src/test/java/com/marksman/HelloControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
