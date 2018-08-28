@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.marksman.springboot.mapper.UserMapper1" >
+
+    <resultMap id="BaseResultMap" type="com.marksman.springboot.domain.entity.User">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="user_name" property="userName" jdbcType="VARCHAR"/>
+        <result column="pass_word" property="passWord" jdbcType="VARCHAR"/>
+        <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+      id,user_name,pass_word,user_name,nick_name,email
+    </sql>
+
+    <select id="getAll" resultMap="BaseResultMap" >
+        select 
+        <include refid="Base_Column_List"/>
+        from user
+    </select>
+    
+    <select id="getOne" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.marksman.springboot.domain.entity.User">
+        insert into user (user_name,pass_word,nick_name,email,reg_time)
+        values (#{userName},#{passWord},#{nickName},#{email},#{regTime})
+    </insert>
+
+    <update id="update" parameterType="com.marksman.springboot.domain.entity.User">
+        update user set
+        user_name = #{userName},
+        nick_name = #{nickName}
+        where id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        delete from user where id = #{id}
+    </delete>
+
+</mapper>
