@@ -10,6 +10,7 @@
         <module name="marksman (1)" />
         <module name="marksman (2)" />
         <module name="marksman (3)" />
+        <module name="marksman (4)" />
         <module name="spring-boot-learning" />
         <module name="springboot02" />
         <module name="springboot04-schedulerTask" />
@@ -21,6 +22,7 @@
       <module name="marksman (1)" target="1.8" />
       <module name="marksman (2)" target="1.8" />
       <module name="marksman (3)" target="1.8" />
+      <module name="marksman (4)" target="1.8" />
       <module name="spring-boot-learning" target="1.8" />
       <module name="spring-boot04-schedulerTask" target="1.8" />
       <module name="springboot02" target="1.8" />
