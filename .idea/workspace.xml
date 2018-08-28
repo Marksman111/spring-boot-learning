@@ -326,6 +326,10 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.springboot02.Springboot02Application" />
     </configuration>
+    <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.springboot.SpringbootApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -355,6 +359,7 @@
       <item itemvalue="JUnit.MailServiceTest.sendAttachmentsMail" />
       <item itemvalue="Spring Boot.Springboot02Application" />
       <item itemvalue="JUnit.MailServiceTest.sendInlineResourceMail" />
+      <item itemvalue="Spring Boot.SpringbootApplication" />
     </list>
     <recent_temporary>
       <list>
