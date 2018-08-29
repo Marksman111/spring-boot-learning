@@ -21,7 +21,7 @@ public class SysRole {
 
     private Boolean available = Boolean.FALSE;
 
-    @ManyToMany
+    @ManyToMany(fetch= FetchType.EAGER)
     @JoinTable(name = "SysRolePermission",joinColumns = {@JoinColumn(name = "roleId")},inverseJoinColumns = {@JoinColumn(name = "permissonId")})
     private List<SysPermission> permissions;
 

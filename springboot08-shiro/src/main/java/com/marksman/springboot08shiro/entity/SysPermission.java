@@ -11,6 +11,7 @@ import java.util.List;
  * @date 2018/8/29
  * @description  权限信息
  */
+@Entity
 public class SysPermission implements Serializable {
 
     @Id
@@ -27,6 +28,8 @@ public class SysPermission implements Serializable {
     private String permission;
 
     private Long parentId;
+
+    private String parentIds;
 
     private Boolean available = Boolean.FALSE;
 
@@ -80,6 +83,14 @@ public class SysPermission implements Serializable {
 
     public void setParentId(Long parentId) {
         this.parentId = parentId;
+    }
+
+    public String getParentIds() {
+        return parentIds;
+    }
+
+    public void setParentIds(String parentIds) {
+        this.parentIds = parentIds;
     }
 
     public Boolean getAvailable() {

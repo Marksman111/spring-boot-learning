@@ -9,6 +9,7 @@ import java.util.List;
  * @date 2018/8/29
  * @description  用户信息
  */
+@Entity
 public class UserInfo implements Serializable {
 
     @Id
