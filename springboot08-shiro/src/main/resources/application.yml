@@ -4,6 +4,8 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+    # schema: database/import.sql
+    # sql-script-encoding: utf-8
   jpa:
     database: mysql
     show-sql: true
@@ -17,3 +19,5 @@ spring:
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
+server:
+  port: 8098
