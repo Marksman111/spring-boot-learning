@@ -1,0 +1,17 @@
+server:
+  port: 8112
+management:
+  security:
+    enabled: false
+  port: 8088
+  context-path: /monitor
+endpoints:
+  shutdown:
+    enabled: true
+  mappings:
+    enabled: false
+
+info:
+  app:
+    name: spring-boot-actuator
+    version: 1.0.0
