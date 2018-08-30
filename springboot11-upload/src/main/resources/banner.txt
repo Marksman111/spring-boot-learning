@@ -1,0 +1,16 @@
+ SSSSSSSSSSSSSSSXXXXXXX       XXXXXXWWWWWWWW                           WWWWWWWW
+ SS:::::::::::::::X:::::X       X:::::W::::::W                           W::::::W
+S:::::SSSSSS::::::X:::::X       X:::::W::::::W                           W::::::W
+S:::::S     SSSSSSX::::::X     X::::::W::::::W                           W::::::W
+S:::::S           XXX:::::X   X:::::XXXW:::::W           WWWWW           W:::::W 
+S:::::S              X:::::X X:::::X    W:::::W         W:::::W         W:::::W  
+ S::::SSSS            X:::::X:::::X      W:::::W       W:::::::W       W:::::W   
+  SS::::::SSSSS        X:::::::::X        W:::::W     W:::::::::W     W:::::W    
+    SSS::::::::SS      X:::::::::X         W:::::W   W:::::W:::::W   W:::::W     
+       SSSSSS::::S    X:::::X:::::X         W:::::W W:::::W W:::::W W:::::W      
+            S:::::S  X:::::X X:::::X         W:::::W:::::W   W:::::W:::::W       
+            S:::::XXX:::::X   X:::::XXX       W:::::::::W     W:::::::::W        
+SSSSSSS     S:::::X::::::X     X::::::X        W:::::::W       W:::::::W         
+S::::::SSSSSS:::::X:::::X       X:::::X         W:::::W         W:::::W          
+S:::::::::::::::SSX:::::X       X:::::X          W:::W           W:::W           
+ SSSSSSSSSSSSSSS  XXXXXXX       XXXXXXX           WWW             WWW  
